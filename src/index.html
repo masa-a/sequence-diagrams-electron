@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<!--
+ *  Copyright (c) 2015 The WebRTC project authors. All Rights Reserved.
+ *
+ *  Use of this source code is governed by a BSD-style license
+ *  that can be found in the LICENSE file in the root of the source
+ *  tree.
+-->
+<html>
+<head>
+  <title>Sequence Diagram</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="vendor/sequence-diagram-min.css">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+  <div class="container">
+    <div id="resizer" class="box">
+      <div id="editor"></div>
+    </div>
+    <div class="box">
+      <div id="diagram">
+        Example: <br />
+        Hoge->Piyo: Foo<br />
+        Note right of Piyo: Piyo\n Hoge<br />
+        Piyo->Hoge: Bar
+      </div>
+    </div>
+  </div>
+  <script src="vendor/ace/src-min-noconflict/ace.js"></script>
+  <script src="vendor/zepto.min.js"></script>
+  <script src="vendor/resize.js"></script>
+  <script src="vendor/webfont.js"></script>
+  <script src="vendor/snap.svg.js"></script>
+  <script src="vendor/underscore-min.js"></script>
+  <script src="vendor/sequence-diagram.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

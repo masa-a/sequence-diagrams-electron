@@ -1,0 +1,17 @@
+.DS_Store
+lib-cov
+*.seed
+*.log
+*.csv
+*.dat
+*.out
+*.pid
+benchmarks/*.png
+coverage
+.idea
+
+node_modules
+dist
+build
+
+config.json

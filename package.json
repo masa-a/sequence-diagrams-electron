@@ -1,0 +1,19 @@
+{
+  "name": "sequence-diagrams",
+  "version": "0.0.1",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "$(npm bin)/electron .",
+    "build:mac": "$(npm bin)/electron-packager . SequenceDiagrams --platform darwin --arch x64 --out dist ignore dist --overwrite true --asar true --prune true",
+    "build:win64": "$(npm bin)/electron-packager . SequenceDiagrams --platform win32 --arch x64 --out dist ignore dist --overwrite true --asar true --prune true"
+  },
+  "private": true,
+  "author": "",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "electron": "^1.6.10",
+    "electron-packager": "8.7.0"
+  }
+}
